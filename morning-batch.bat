@@ -1,2 +1,1 @@
-"C:\Users\sarefeen\AppData\Local\Continuum\anaconda3\python.exe" "X:\19-09-24 Yiffy\retrieve_points.py"
-pause
+"D:\Users\Shafquat\Anaconda3\python.exe" "D:\Dropbox\yffpy-batch\fantasy-points\retrieve_points.py"
