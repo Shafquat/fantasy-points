@@ -5,7 +5,7 @@ You need Python 3.7 to run this code. It will not work with Python 2.X
 
 This script uses the python wrapper [Yffpy](https://pypi.org/project/yffpy/) to pull data from Yahoo Fantasy Sports.
 
-> ## Setting up an APP to get a client ID and Secret (from Yffpy's guide)
+> ## Setting up an APP to get a Consumer Key and Secret (from Yffpy's guide)
     Log in to a Yahoo account with access to whatever fantasy football leagues from which you wish to retrieve data.
     Go to https://developer.yahoo.com/apps/create/ and create an app (you must be logged into your Yahoo account as stated above). For the app, select the following options:
         Application Name (Required): yffpy (you can name your app whatever you want, but this is just an example).

@@ -53,8 +53,8 @@ if __name__ == "__main__":
 	game_id = "396" # put the game id here (game id's reflect the type of sport and the year)
 	game_code = "nhl" # put the game code here
 	season = "2019" # put the year of the current fantasy season
-	auth_dir = 'D:/Dropbox/yffpy-batch/' # put the location where you are storing the client_id/secret
-	working_dir = 'D:/Dropbox/yffpy-batch/fantasy-points/' # put the location where you want excel file to be saved
+	auth_dir = 'X:/yffpy-batch/' # put the location where you are storing the client_id/secret
+	working_dir = 'X:/yffpy-batch/fantasy-points/' # put the location where you want excel file to be saved
 	excel_file_name = 'Points.xlsx' # Name your file after you set up the headers
 	
 	team_list_today = pull_data(season,league_id,game_id,game_code,auth_dir)

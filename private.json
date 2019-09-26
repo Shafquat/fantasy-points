@@ -1,4 +1,4 @@
-{
-    "consumer_key": "Enter_Your_Long_Key_Here",
-    "consumer_secret": "Enter_Your_Shorter_Secret_Here",
+ {
+  "consumer_key": "YAHOO_DEVELOPER_APP_CONSUMER_KEY_STRING",
+  "consumer_secret": "YAHOO_DEVELOPER_APP_CONSUMER_SECRET_STRING"
 }
