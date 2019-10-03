@@ -21,7 +21,7 @@ def pull_data(season,league_id,game_id,game_code,auth_dir):
 	team_list = []
 	# Iterate over the Standings json to get teamids and their respective points
 	for team in parsed_json['teams']:
-		team_list.append((team['team']['team_id'],team['team']['team_standings']['points_for']))
+		team_list.append((int(team['team']['team_id']),team['team']['team_standings']['points_for']))
 		
 	# Sort the team list by the team id
 	team_list = sorted(team_list)
@@ -31,6 +31,7 @@ def pull_data(season,league_id,game_id,game_code,auth_dir):
 
 # Function that takes in a sorted list of tuples with (team_id,current points) and puts it in an excel sheet
 def write_to_sheet(working_dir,excel_file_name,team_list):
+
 	# open file and go to active sheet
 	book = openpyxl.load_workbook(working_dir+excel_file_name)
 	sheet = book.active
